@@ -21,6 +21,7 @@ public class FibonacciServlet extends HttpServlet {
         if (num > 100)
             num = 100;
         response.setContentType("text/html;charset=utf-8");
+        request.setCharacterEncoding("UTF-8");
         PrintWriter out = response.getWriter();
         out.println("<HTML>");
         out.println("<HEAD><TITLE>피보나치 수열</TITLE></HEAD>");

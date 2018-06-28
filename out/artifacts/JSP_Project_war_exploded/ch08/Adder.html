@@ -3,42 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>덧셈프로그램</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
+<div class="container">
+    <h3>AdderServlet</h3>
+    <form action="AdderServlet" class="form-inline">
+        NUM1: <input type="text" name="NUM1" class="form-control mb5">
+        NUM2: <input type="text" name="NUM2" class="form-control mb5">
+        <input type="submit" value="계산" class="btn btn-primary m2">
+    </form>
 
-<h3>AdderServlet</h3>
-<form action="AdderServlet">
-    NUM1: <input type="text" name="NUM1">
-    NUM2: <input type="text" name="NUM2">
-    <input type="submit" value="계산">
-</form>
+    <h3>Adder1</h3>
+    <form action="Adder2.jsp" class="form-inline">
+        NUM1: <input type="text" name="NUM1" class="form-control">
+        NUM2: <input type="text" name="NUM2" class="form-control">
+        <input type="submit" value="계산" class="btn btn-primary">
+    </form>
 
-<h3>Adder1</h3>
-<form action="Adder2.jsp">
-    NUM1: <input type="text" name="NUM1">
-    NUM2: <input type="text" name="NUM2">
-    <input type="submit" value="계산">
-</form>
+    <h3>Adder2</h3>
+    <form action="Adder2.jsp" class="form-inline">
+        NUM1: <input type="text" name="NUM1" class="form-control">
+        NUM2: <input type="text" name="NUM2" class="form-control">
+        <input type="submit" value="계산" class="btn btn-primary">
+    </form>
 
-<h3>Adder2</h3>
-<form action="Adder2.jsp">
-    NUM1: <input type="text" name="NUM1">
-    NUM2: <input type="text" name="NUM2">
-    <input type="submit" value="계산">
-</form>
+    <h3>New Adder</h3>
+    <form action="NewAdder.jsp" class="form-inline">
+        NUM1: <input type="text" name="NUM1" class="form-control">
+        NUM2: <input type="text" name="NUM2" class="form-control">
+        <input type="submit" value="계산" class="btn btn-primary">
+    </form>
 
-<h3>New Adder</h3>
-<form action="NewAdder.jsp">
-    NUM1: <input type="text" name="NUM1">
-    NUM2: <input type="text" name="NUM2">
-    <input type="submit" value="계산">
-</form>
-
-<h3>New AdderServlet</h3>
-<form action="NewAdderServlet">
-    NUM1: <input type="text" name="NUM1">
-    NUM2: <input type="text" name="NUM2">
-    <input type="submit" value="계산">
-</form>
+    <h3>New AdderServlet</h3>
+    <form action="NewAdderServlet" class="form-inline">
+        NUM1: <input type="text" name="NUM1" class="form-control">
+        NUM2: <input type="text" name="NUM2" class="form-control">
+        <input type="submit" value="계산" class="btn btn-primary">
+    </form>
+</div>
 </body>
 </html>

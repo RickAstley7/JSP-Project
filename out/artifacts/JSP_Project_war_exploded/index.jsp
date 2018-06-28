@@ -13,7 +13,7 @@
     </div>
 
     <%-- ch01 --%>
-    <h3>Chapter1. 기본적인 JSP와 Servlet</h3>
+    <h3>Chapter1.</h3>
     <ul>
         <li><a href="ch01/check.jsp">계산 문제</a></li>
         <li><a href="ch01/sum100">1부터 100까지 총합</a></li>
@@ -22,7 +22,7 @@
     </ul>
 
     <%-- ch02 --%>
-    <h3>Chapter2. </h3>
+    <h3>Chapter2.</h3>
     <ul>
         <li><a href="ch02/BBSInput.html">게시판 글쓰기</a></li>
         <li><a href="ch02/PInfoInput.html">개인정보 입력화면</a></li>

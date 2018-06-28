@@ -2,15 +2,20 @@
 <HEAD>
     <META http-equiv="Content-Type" content="text/html;charset=utf-8">
     <TITLE>회원 가입</TITLE>
+    <link rel="stylesheet" href="../css/bootstrap.css">
 </HEAD>
 <BODY>
-<H4>회원 정보를 입력하십시오.</H4>
-<FORM ACTION=Subscription.jsp METHOD=POST>
-    이름: <INPUT TYPE=TEXT NAME=name SIZE=10> <BR>
-    아이디: <INPUT TYPE=TEXT NAME=id SIZE=12> <BR>
-    패스워드: <INPUT TYPE=PASSWORD NAME=password SIZE=12> <BR>
-    <INPUT TYPE=SUBMIT VALUE='확인'>
-    <INPUT TYPE=RESET VALUE='취소'>
-</FORM>
+<div class="container">
+    <H4>회원 정보를 입력하십시오.</H4>
+    <FORM ACTION=Subscription.jsp METHOD=POST>
+        이름: <INPUT TYPE=TEXT NAME=name SIZE=10 class="form-control"> <BR>
+        아이디: <INPUT TYPE=TEXT NAME=id SIZE=12 class="form-control"> <BR>
+        패스워드: <INPUT TYPE=PASSWORD NAME=password SIZE=12 class="form-control"> <BR>
+        <div class="pull-right">
+            <INPUT TYPE=SUBMIT VALUE='확인' class="btn btn-primary">
+            <INPUT TYPE=RESET VALUE='취소' class="btn btn-default">
+        </div>
+    </FORM>
+</div>
 </BODY>
 </HTML>

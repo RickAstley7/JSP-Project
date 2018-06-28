@@ -18,7 +18,7 @@
     jspInit();
     GregorianCalendar now = new GregorianCalendar();
     String date = String.format("현재 날짜: %TY년 %Tm월 %Te일", now, now, now);
-    String time = String.format("현재 시각: %TI시 %Tm분 %TS초", now, now, now);
+    String time = String.format("현재 시각: %TI시 %TM분 %TS초", now, now, now);
     out.println(date + "<BR>");
     out.println(time + "<BR>");
     if (logFile != null)

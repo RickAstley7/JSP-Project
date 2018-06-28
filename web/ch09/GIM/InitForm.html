@@ -2,12 +2,15 @@
 <HEAD>
     <META http-equiv="Content-Type" content="text/html;charset=utf-8">
     <TITLE>상품 정보 관리</TITLE>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
 </HEAD>
 <BODY>
-<H4>상품코드를 입력하십시오.</H4>
-<FORM ACTION=Reader.jsp METHOD=GET>
-    상품코드: <INPUT TYPE=TEXT NAME=code SIZE=5>
-    <INPUT TYPE=SUBMIT VALUE='확인'>
-</FORM>
+<div class="container">
+    <H4>상품코드를 입력하십시오.</H4>
+    <FORM ACTION=Reader.jsp METHOD=GET class="form-inline">
+        상품코드: <INPUT TYPE=TEXT NAME=code SIZE=5 class="form-control">
+        <INPUT TYPE=SUBMIT VALUE='확인' class="btn btn-primary">
+    </FORM>
+</div>
 </BODY>
 </HTML>

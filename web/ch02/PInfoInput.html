@@ -3,33 +3,40 @@
 <head>
     <meta charset="utf-8">
     <title>개인 정보 입력 화면</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
-<h2>개인 정보 입력</h2>
-<form action="register" method="GET">
-    이름 : <input type=TEXT name=NAME><br>
-    아이디 : <input type=TEXT name=ID><br>
-    패스워드 : <input type=password name=PW>
-    <br><br>
-    성별 :
-    남<input type=RADIO name=GENDER value=MALE checked>
-    여<input type=RADIO name=GENDER value=FEMALE>
-    <br><br>
-    메일 수신 여부 :
-    공지 메일<input type=CHECKBOX name=INOTICE>
-    광고 메일<input type=CHECKBOX name=CNOTICE>
-    배송 확인 메일<input type=CHECKBOX name=DNOTICE>
+<div class="container">
 
-    <br><br>
-    직업 :
-    <select name="JOB">
-        <option>회사원</option>
-        <option>학생</option>
-        <option>기타</option>
-    </select>
-    <br><br>
-    <input type=RESET value="취소">
-    <input type=SUBMIT value="확인">
+
+    <h2 class="text-center">개인 정보 입력</h2>
+    <form action="register" method="GET">
+        이름 : <input type=TEXT name=NAME class="form-control"><br>
+        아이디 : <input type=TEXT name=ID class="form-control"><br>
+        패스워드 : <input type=password name=PW class="form-control">
+        <br><br>
+        성별 :
+        남<input type=RADIO name=GENDER value=MALE checked>
+        여<input type=RADIO name=GENDER value=FEMALE>
+        <br><br>
+        메일 수신 여부 :
+        공지 메일<input type=CHECKBOX name=INOTICE>
+        광고 메일<input type=CHECKBOX name=CNOTICE>
+        배송 확인 메일<input type=CHECKBOX name=DNOTICE>
+
+        <br><br>
+        직업 :
+        <select name="JOB" class="form-control">
+            <option>회사원</option>
+            <option>학생</option>
+            <option>기타</option>
+        </select>
+        <br><br>
+        <div class="pull-right">
+            <input type=SUBMIT value="확인" class="btn btn-primary">
+            <input type=RESET value="지우기" class="btn btn-default">
+        </div>
+</div>
 </form>
 </body>
 </html>

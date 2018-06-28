@@ -2,12 +2,22 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html: charset=utf-8">
     <title>덧셈 프로그램 - 입력 화면</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
-<form action="add">
-    첫번째 수 : <input type=text name=num1><br>
-    두번째 수 : <input type=text name=num2><br>
-    <input type="submit" value="더하기">
-</form>
+<div class="container">
+    <h3>덧셈 프로그램</h3>
+    <form action="add" class="form-inline">
+        <div class="form-group mb2">
+            첫번째 수 : <input type=text name=num1 class="form-control">
+        </div>
+        <div class="form-group mb2">
+            두번째 수 : <input type=text name=num2 class="form-control">
+        </div>
+        <div class="form-group mb2">
+            <input type="submit" class="btn btn-primary form-control" value="더하기">
+        </div>
+    </form>
+</div>
 </body>
 </html>

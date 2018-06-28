@@ -3,12 +3,15 @@
 <head>
     <meta charset="utf-8">
     <title>인사하기</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
-당신의 이름을 입력하십시오.
-<form action="Hi.jsp" method="get">
-    이름 : <input type="text" name=YOURNAME>
-    <input type="SUBMIT" value="확인">
-</form>
+<div class="container">
+    <h4>당신의 이름을 입력하십시오.</h4>
+    <form action="Hi.jsp" class="form-inline" method="get">
+        이름 : <input type="text" name=YOURNAME class="form-control mb5">
+        <input type="SUBMIT" value="확인" class="form-control mb5 btn btn-primary">
+    </form>
+</div>
 </body>
 </html>

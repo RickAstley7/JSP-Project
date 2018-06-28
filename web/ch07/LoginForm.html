@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>로그인</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
-<form action="Login.jsp">
-    아이디: <input type="text" name="ID"><br>
-    비밀번호: <input type="text" name="PASSWORD"><br><br>
-    <input type="submit" value="로그인">
+<div class="container">
+    <form action="Login.jsp">
+        아이디: <input type="text" name="ID" class="form-control"><br>
+        비밀번호: <input type="text" name="PASSWORD" class="form-control"><br><br>
+        <input type="submit" value="로그인" class="btn btn-primary pull-right">
+</div>
 </form>
 </body>
 </html>

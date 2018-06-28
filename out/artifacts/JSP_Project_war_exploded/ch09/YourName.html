@@ -1,13 +1,17 @@
-<HTML>
-<HEAD>
-    <META http-equiv="Content-Type" content="text/html;charset=utf-8">
-    <TITLE>이름 입력</TITLE>
-</HEAD>
-<BODY>
-<H3>이름을 입력하십시오.</H3>
-<FORM ACTION="greeting">
-    이름: <INPUT TYPE=TEXT NAME=NAME>
-    <INPUT TYPE=SUBMIT VALUE='확인'>
-</FORM>
-</BODY>
-</HTML>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>인사하기</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<body>
+<div class="container">
+    <h4>당신의 이름을 입력하십시오.</h4>
+    <form action="greeting" class="form-inline" method="get">
+        이름 : <input type="text" name=NAME class="form-control mb5">
+        <input type="SUBMIT" value="확인" class="form-control mb5 btn btn-primary">
+    </form>
+</div>
+</body>
+</html>

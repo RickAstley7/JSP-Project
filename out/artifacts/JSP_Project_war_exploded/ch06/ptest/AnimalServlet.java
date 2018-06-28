@@ -10,13 +10,13 @@ public class AnimalServlet extends HttpServlet {
         response.setContentType("text/html;charset=utf-8");
         PrintWriter out = response.getWriter();
         out.println("<HTML>");
-        out.println("<HEAD><TITLE>성격 테스트</TITLE></HEAD>");
+        out.println("<HEAD><TITLE>성격 테스트</TITLE><link rel='stylesheet' href='../../css/bootstrap.css'></HEAD>");
         out.println("<BODY>");
-        out.println("<H3>좋아하는 동물은?</H3>");
-        out.println("<FORM ACTION=result>");
-        out.println("<INPUT TYPE=TEXT NAME=ANIMAL>");
-        out.println("<INPUT TYPE=SUBMIT VALUE='확인'>");
-        out.println("</FORM>");
+        out.println("<div class='container'><H3>좋아하는 동물은?</H3>");
+        out.println("<FORM ACTION=result class='form-inline'>");
+        out.println("<INPUT TYPE=TEXT NAME=ANIMAL class='form-control mb5'>");
+        out.println("<INPUT TYPE=SUBMIT VALUE='확인' class='btn btn-primary mb5'>");
+        out.println("</FORM></div>");
         out.println("</BODY>");
         out.println("</HTML>");
     }
