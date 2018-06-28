@@ -1,4 +1,4 @@
 # JSP-Project
 
-누구나 마음대로 사용하시면 됩니다!
-+디자인을 추가하시길 바랍니다
+프로그래밍 실습 프로젝트
+JSP & Servlet Guide Site
